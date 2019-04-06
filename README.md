@@ -1,5 +1,5 @@
 # Nova Fixed Bars
-A Laravel Nova packlage to fix sidebar and navbar positions.
+A Laravel Nova package to add a responsive and/or fixed sidebar and navigation bar to the Nova admin UI.
 
 <h6 align="center">
   <img src="https://i.imgur.com/vVg1s1m.png" width="700">

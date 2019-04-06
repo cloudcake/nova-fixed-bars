@@ -1,0 +1,20 @@
+#nova {
+    margin-top: 30px;
+}
+
+.content .h-header {
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 13.75rem;
+    margin-top: 0;
+    width: 100%;
+}
+
+.content .h-header .dropdown {
+    margin-left: 0;
+    margin-right: 0;
+    float: right;
+    right: 20px;
+    position: fixed;
+}

@@ -28,4 +28,4 @@ php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvide
 ![shot](https://i.imgur.com/i5wgnge.gif)
 
 ### Responsive Sidebar
-![shot](https://i.imgur.com/rK33TOz.gif)
+![shot](https://i.imgur.com/5CCEQ3J.gif)

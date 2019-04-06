@@ -19,10 +19,13 @@ php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvide
 # Screenshots
 
 ### Fixed Sidebar & Fixed Navbar
-![shot](https://i.imgur.com/4aHykT5.gif)
+![shot](https://i.imgur.com/7iAe0bv.gif)
 
 ### Fixed Sidebar Only
-![shot](https://i.imgur.com/LHHUoqJ.gif)
+![shot](https://i.imgur.com/wS75esE.gif)
+
+### Fixed Navbar Only
+![shot](https://i.imgur.com/i5wgnge.gif)
 
 ### Responsive Sidebar
 ![shot](https://i.imgur.com/rK33TOz.gif)

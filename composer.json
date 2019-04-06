@@ -1,6 +1,6 @@
 {
     "name": "stephenlake/nova-fixed-bars",
-    "description": "A Laravel Nova package to fix position of sidebar and navbar.",
+    "description": "A Laravel Nova packlage to fix sidebar and navbar positions.",
     "keywords": [
         "laravel",
         "nova"

@@ -5,6 +5,17 @@ A Laravel Nova packlage to fix sidebar and navbar positions.
   <img src="https://i.imgur.com/vVg1s1m.png" width="700">
 </h6>
 
+# Installation
+Require package:
+```bash
+composer require stephenlake/nova-fixed-bars
+```
+
+Publish and edit configuration file (**Optional**)
+```bash
+php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvider" --tag="config"
+```
+
 # Screenshots
 
 ### Fixed Sidebar & Fixed Navbar

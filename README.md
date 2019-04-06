@@ -1,6 +1,10 @@
 # Nova Fixed Bars
 A Laravel Nova packlage to fix sidebar and navbar positions.
 
+<h6 align="center">
+  <img src="https://i.imgur.com/vVg1s1m.png" width="700">
+</h6>
+
 # Screenshots
 
 ### Fixed Sidebar & Fixed Navbar

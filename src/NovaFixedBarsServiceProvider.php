@@ -29,6 +29,10 @@ class NovaFixedBarsServiceProvider extends ServiceProvider
                     Nova::style('nova-responsive', __DIR__.'/../resources/css/responsive.css');
                     Nova::script('nova-responsive-js', __DIR__.'/../resources/js/responsive.js');
                 }
+
+                Nova::style('nova-perfect-scroll-css', __DIR__.'/../resources/css/perfect-scrollbar.css');
+                Nova::script('nova-perfect-scroll-js', __DIR__.'/../resources/js/perfect-scrollbar.min.js');
+                Nova::script('nova-perfect-scroll-js-init', __DIR__.'/../resources/js/perfect-scrollbar-init.js');
             }
 
             if ($config['fixedNavbar']) {

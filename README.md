@@ -3,6 +3,8 @@ A Laravel Nova package to add a responsive and/or fixed sidebar and navigation b
 
 <h6 align="center">
   <img src="https://i.imgur.com/VlfiVB0.gif" width="650">
+  <br>
+  Want this theme? Check out <a href="https://github.com/stephenlake/nova-snowball">Nova Snowball</a>.
 </h6>
 
 # Installation

@@ -2,7 +2,7 @@
 A Laravel Nova package to add a responsive and/or fixed sidebar and navigation bar to the Nova admin UI.
 
 <h6 align="center">
-  <img src="https://i.imgur.com/7iAe0bv.gif" width="650">
+  <img src="https://i.imgur.com/VlfiVB0.gif" width="650">
 </h6>
 
 # Installation

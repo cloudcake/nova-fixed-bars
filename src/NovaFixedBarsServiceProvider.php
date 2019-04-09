@@ -17,27 +17,21 @@ class NovaFixedBarsServiceProvider extends ServiceProvider
     {
         $config = config('nova-fixed-bars', [
           'fixedSidebar' => true,
-          'fixedNavbar'  => true,
-          'responsive'   => true,
+          'fixedNavbar'  => true
         ]);
 
         Nova::serving(function (ServingNova $event) use ($config) {
             if ($config['fixedSidebar']) {
-                Nova::style('nova-fixedSidebar', __DIR__.'/../resources/css/fixed-sidebar.css');
-
-                if ($config['responsive']) {
-                    Nova::style('nova-responsive', __DIR__.'/../resources/css/responsive.css');
-                    Nova::script('nova-responsive-js', __DIR__.'/../resources/js/responsive.js');
-                }
-
-                Nova::style('nova-perfect-scroll-css', __DIR__.'/../resources/css/perfect-scrollbar.css');
-                Nova::script('nova-perfect-scroll-js', __DIR__.'/../resources/js/perfect-scrollbar.min.js');
-                Nova::script('nova-perfect-scroll-js-init', __DIR__.'/../resources/js/perfect-scrollbar-init.js');
+                Nova::style('nova-sidebar-css', __DIR__.'/../resources/css/fixed-sidebar.css');
+                Nova::style('nova-ps-css', __DIR__.'/../resources/css/perfectscrollbar.css');
+                Nova::script('nova-ps-js', __DIR__.'/../resources/js/perfectscrollbar.js');
             }
 
             if ($config['fixedNavbar']) {
-                Nova::style('nova-fixedNavbar', __DIR__.'/../resources/css/fixed-navbar.css');
+                Nova::style('nova-fixed-header-css', __DIR__.'/../resources/css/fixed-header.css');
             }
+
+            Nova::script('nova-dynamicwidth-js', __DIR__.'/../resources/js/dynamicwidth.js');
         });
 
         $this->publishes([

@@ -25,19 +25,5 @@ return [
   */
 
   'fixedNavbar' => true,
-
-  /*
-  |--------------------------------------------------------------------------
-  | Responsive
-  |--------------------------------------------------------------------------
-  |
-  | Setting this value to true will the sidebar and navigation bar responsive
-  | to smaller screen dimensions.
-  |
-  | Note: This only affects the sidebar and navigation bar, no other components
-  |       will become responsive as its not the concern of this package.
-  |
-  */
-
-  'responsive' => true,
+  
 ];

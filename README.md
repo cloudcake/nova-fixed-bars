@@ -17,17 +17,3 @@ Publish and edit configuration file (**Optional**)
 ```bash
 php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvider" --tag="config"
 ```
-
-# Screenshots
-
-### Fixed Sidebar & Fixed Navbar
-![shot](https://i.imgur.com/VlfiVB0.gif)
-
-### Fixed Sidebar Only
-![shot](https://i.imgur.com/wS75esE.gif)
-
-### Fixed Navbar Only
-![shot](https://i.imgur.com/i5wgnge.gif)
-
-### Responsive Sidebar
-![shot](https://i.imgur.com/5CCEQ3J.gif)

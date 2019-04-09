@@ -2,7 +2,9 @@
 A Laravel Nova package to add a responsive and/or fixed sidebar and navigation bar to the Nova admin UI.
 
 <h6 align="center">
-  <img src="https://i.imgur.com/vVg1s1m.png" width="700">
+  <img src="https://i.imgur.com/VlfiVB0.gif" width="650">
+  <br>
+  Want this theme? Check out <a href="https://github.com/stephenlake/nova-snowball">Nova Snowball</a>.
 </h6>
 
 # Installation
@@ -19,7 +21,7 @@ php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvide
 # Screenshots
 
 ### Fixed Sidebar & Fixed Navbar
-![shot](https://i.imgur.com/7iAe0bv.gif)
+![shot](https://i.imgur.com/VlfiVB0.gif)
 
 ### Fixed Sidebar Only
 ![shot](https://i.imgur.com/wS75esE.gif)

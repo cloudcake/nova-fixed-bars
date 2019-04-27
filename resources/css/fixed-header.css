@@ -1,5 +1,6 @@
 #nova .content {
     padding-top: 30px;
+    position: relative;
 }
 
 .content .h-header {

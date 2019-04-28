@@ -25,5 +25,5 @@ return [
   */
 
   'fixedNavbar' => true,
-  
+
 ];

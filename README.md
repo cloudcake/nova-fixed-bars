@@ -22,3 +22,6 @@ Publish and edit configuration file (**Optional**)
 ```bash
 php artisan vendor:publish --provider="NovaFixedBars\NovaFixedBarsServiceProvider" --tag="config"
 ```
+
+# License
+This library is licensed under the DON'T BE A DICK PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details.

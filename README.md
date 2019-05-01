@@ -13,6 +13,9 @@ A Laravel Nova package to set the sidebar and/or header bar to a fixed position 
 </h6>
 
 # Installation
+
+**Note:** If you do not want the responsive sidebar and header, stick to `v1.0.*`.
+
 Require package:
 ```bash
 composer require stephenlake/nova-fixed-bars

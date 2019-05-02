@@ -23,7 +23,7 @@ function calibrateWidths() {
 
     sidebar.style = 'height: 100%'
 
-    content.style.marginLeft = sidebar.offsetWidth+'px'
+    content.style.marginLeft = sidebar.offsetWidth + 'px'
     content.style.width = '100%'
     content.style.maxWidth = '100%'
 }

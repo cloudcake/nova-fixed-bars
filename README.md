@@ -12,6 +12,8 @@ A Laravel Nova package to set the sidebar and/or header bar to a fixed position 
   Want this theme? Check out <a href="https://github.com/stephenlake/nova-snowball">Nova Snowball</a>.
 </h6>
 
+Made with ❤️ by [Stephen Lake](http://github.com/stephenlake)
+
 # Installation
 
 **Note:** If you do not want the responsive sidebar and header, stick to `v1.0.*`.

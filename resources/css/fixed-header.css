@@ -1,22 +1,26 @@
 #nova .content {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .content .h-header {
-  z-index: 50;
-  position: fixed;
-  top: 0;
-  margin-top: 0;
-  width: 100%;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    padding-right: 240px;
 }
 
 .content .h-header .dropdown {
-  margin-right: 0;
-  position: fixed;
+    margin-right: 0;
+    position: fixed;
 }
 
 @media (max-width: 992px) {
-  #nova .content {
-    padding-top: 60px;
-  }
+    #nova .content {
+        padding-top: 60px;
+    }
+    .content .h-header {
+        padding-right: 40px;
+    }
 }
